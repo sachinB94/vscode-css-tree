@@ -2,7 +2,7 @@
   "name": "css-tree",
   "displayName": "CSS Tree",
   "description": "Generate CSS tree from selected HTML/JSX",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.30.0"
   },
