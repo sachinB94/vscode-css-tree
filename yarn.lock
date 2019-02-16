@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.39.tgz#e7e87ad00364dd7bc485c940926345b8ec1a26ca"
   integrity sha512-rE7fktr02J8ybFf6eysife+WF+L4sAHWzw09DgdCebEu+qDwMvv4zl6Bc+825ttGZP73kCKxa3dhJOoGJ8+5mA==
 
+"@types/parse5@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-5.0.0.tgz#9ae2106efc443d7c1e26570aa8247828c9c80f11"
+  integrity sha512-J5D3z703XTDIGQFYXsnU9uRCW9e9mMEFO0Kpe6kykyiboqziru/RlZ0hM2P+PKTG4NHG1SjLrqae/NrV2iJApQ==
+
 ajv@^6.5.5:
   version "6.8.1"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.8.1.tgz#0890b93742985ebf8973cd365c5b23920ce3cb20"
@@ -357,6 +362,14 @@ diff@^3.2.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
+
+document-tree@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/document-tree/-/document-tree-1.0.1.tgz#28cfe8bc27fe33fbb2f73e4397e95c15f2fd580c"
+  integrity sha512-Kuflm7RgSYCS0S01WkZCOqrPrr4bRlTKPTCJbjPyMUGze5/VXRG6rhEZ12KKuOQHPRdrcqj6IGUb8mi3GsxbfQ==
+  dependencies:
+    "@types/parse5" "^5.0.0"
+    parse5 "^5.1.0"
 
 duplexer@^0.1.1, duplexer@~0.1.1:
   version "0.1.1"
@@ -1001,6 +1014,11 @@ ordered-read-streams@^1.0.0:
   integrity sha1-d8DLN8QVJdZBZtmQ/61+xqDhNj4=
   dependencies:
     readable-stream "^2.0.1"
+
+parse5@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
+  integrity sha512-fxNG2sQjHvlVAYmzBZS9YlDp6PTSSDwa98vkD4QgVDDCAo84z5X1t5XyJQ62ImdLXx5NdIIfihey6xpum9/gRQ==
 
 path-dirname@^1.0.0:
   version "1.0.2"
